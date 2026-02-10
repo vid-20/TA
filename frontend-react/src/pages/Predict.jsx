@@ -1,6 +1,5 @@
 import React from "react";
 import PredictionForm from "../components/PredictionForm";
-//import PredictionResult from "../components/PredictionResult";
 import "../styles/page.css";
 
 export default function Predict({ setPrediction, prediction }) {
