@@ -13,7 +13,6 @@ const Register = () => {
   });
 
   const [error, setError] = useState("");
-  //const [success, setSuccess] = useState("");
   const [isRegistered, setIsRegistered] = useState(false);
 
 
@@ -43,7 +42,6 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
-    //setSuccess("");
 
     const validationError = validate();
     if (validationError) {
@@ -141,4 +139,5 @@ return (
 };
 
 export default Register;
+
 
